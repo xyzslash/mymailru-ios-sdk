@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'iOS framework for working with my.mail.ru (мой мир@mail.ru) REST API.'
   spec.source       = { 
     :git => 'https://github.com/xyzslash/mymailru-ios-sdk.git', 
-    :tag => '1.3.0' 
+	    :tag => '1.3.0' 
   }
   spec.source_files = ['MyMailRuSDK/MyMailRuSDK/MyMailRuSDK.h', 'MyMailRuSDK/MyMailRuSDK/**/*.{h,m}']
 
