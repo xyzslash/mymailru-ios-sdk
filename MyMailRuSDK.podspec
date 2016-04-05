@@ -1,5 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MyMailRuSDK'
+  spec.platform     = :ios,'7.0'
   spec.version      = '1.3.0'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage     = 'https://github.com/xyzslash/mymailru-ios-sdk'
@@ -9,9 +10,7 @@ Pod::Spec.new do |spec|
     :git => 'https://github.com/xyzslash/mymailru-ios-sdk.git', 
     :tag => '1.3.0' 
   }
-  spec.source_files = 'MyMailRuSDK/MyMailRuSDK/*.{h,m}'
-
-  spec.frameworks   =  'CommonCrypto'
+  spec.source_files = ['MyMailRuSDK/MyMailRuSDK/MyMailRuSDK.h', 'MyMailRuSDK/MyMailRuSDK/**/*.{h,m}']
 
   spec.requires_arc = true
 end
